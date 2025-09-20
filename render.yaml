@@ -13,3 +13,9 @@ services:
         value: mongodb+srv://taskhive:65BAJNXUf6I0OnqU@taskhive-db.ffbtau8.mongodb.net/taskhive?retryWrites=true&w=majority
       - key: PORT
         value: "5000"
+
+databases:
+  - name: taskhive-db
+    databaseName: taskhive
+    plan: free
+    region: ap-south-1
