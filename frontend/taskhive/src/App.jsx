@@ -3,6 +3,8 @@ import React, { useState, useEffect } from 'react';
 import BoardGrid from './components/BoardGrid';
 import CalendarView from './components/CalendarView';
 import NotificationManager from './components/NotificationManager';
+import FooterTranscript from './components/FooterTranscript';
+import Footer from "./components/Footer";
 import { api } from './api';
 import './App.css';
 
@@ -33,6 +35,8 @@ export default function App() {
 			<h2>Calendar View</h2>
 			<CalendarView tasks={tasks} fetchData={fetchData} />
 			<NotificationManager tasks={tasks} />
+			<FooterTranscript boards={boards} tasks={tasks} />
+			<Footer />
 		</div>
 	);
 }

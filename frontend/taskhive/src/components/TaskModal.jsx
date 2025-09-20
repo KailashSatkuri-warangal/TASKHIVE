@@ -1,4 +1,3 @@
-// frontend/src/components/TaskModal.jsx
 import React, { useState } from 'react';
 import { api } from '../api';
 
