@@ -4,6 +4,7 @@ services:
     env: node
     region: oregon
     branch: main
+    rootDir: backend 
     buildCommand: npm install
     startCommand: node server.js
     autoDeploy: true
@@ -11,7 +12,9 @@ services:
       - key: MONGO_URI
         fromDatabase:
           name: taskhive-db
-          field: connectionString
+          property: connectionString
+      - key: PORT
+        value: "10000"
 
 databases:
   - name: taskhive-db
