@@ -4,20 +4,12 @@ services:
     env: node
     region: oregon
     branch: main
-    rootDir: backend 
+    rootDir: backend
     buildCommand: npm install
     startCommand: node server.js
     autoDeploy: true
     envVars:
       - key: MONGO_URI
-        fromDatabase:
-          name: taskhive-db
-          property: connectionString
+        value: mongodb+srv://taskhive:65BAJNXUf6I0OnqU@taskhive-db.ffbtau8.mongodb.net/taskhive?retryWrites=true&w=majority
       - key: PORT
-        value: "10000"
-
-databases:
-  - name: taskhive-db
-    databaseName: taskhive
-    plan: free
-    region: oregon
+        value: "5000"
