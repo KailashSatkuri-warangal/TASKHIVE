@@ -3,6 +3,7 @@
 <p align="center">
   <img src="/frontend/public/hive.png" alt="TASKHIVE Logo" width="200"/>
 </p>
+
 **TASKHIVE** is a full-stack task management application designed to help users organize, prioritize, and collaborate on tasks efficiently. Built with React, Node.js, Express, and MongoDB, it offers a seamless experience for managing personal and team tasks.
 
 ---
@@ -29,8 +30,9 @@
 
 ## 🌐 Live Demo
 
-[![Live Demo](https://img.shields.io/badge/Backend-Render-Demo-brightgreen)](https://taskhive-9zls.onrender.com)
-[![Frontend](https://img.shields.io/badge/Frontend-GitHub%20Pages-blue)](https://kailashsatkuri-warangal.github.io/TASKHIVE/)
+| Live Demo | Frontend |
+|-----------|----------|
+| [![Live Demo](https://img.shields.io/badge/Live-Demo-brightgreen)](https://taskhive-9zls.onrender.com) | [![Frontend](https://img.shields.io/badge/Frontend-GitHub%20Pages-blue)](https://kailashsatkuri-warangal.github.io/TASKHIVE/) |
 ---
 
 ## Getting Started
