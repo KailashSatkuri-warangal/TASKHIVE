@@ -30,7 +30,7 @@
 
 ## 🌐 Live Demo
 
-| Live Demo | Frontend |
+| Render Backend | Frontend |
 |-----------|----------|
 | [![Live Demo](https://img.shields.io/badge/Live-Demo-brightgreen)](https://taskhive-9zls.onrender.com) | [![Frontend](https://img.shields.io/badge/Frontend-GitHub%20Pages-blue)](https://kailashsatkuri-warangal.github.io/TASKHIVE/) |
 ---
@@ -123,7 +123,7 @@ We welcome contributions! Please follow these steps:
 
 ## Contact
 
-For any inquiries, please contact Kailash Satkuri.
+For any inquiries, please contact @[![Contact](https://img.shields.io/badge/Contact-Kailash%20Satkuri-lightgrey)](mailto:satkurikailash@gmail.com) |.
 
 ---
 
